@@ -8,8 +8,8 @@ class Race
   end
 
   def register_candidate!(candidate)
-    @candidates.map do |race|
+   candidate_class = @candidates.map do |race|
     candidate = Candidate.new(candidate)
-  end
+   end
   end
 end
